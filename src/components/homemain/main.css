@@ -1,0 +1,9 @@
+.main{
+    background-color: ghostwhite;
+}
+.fundo {
+    width: 100%;
+    height: 76%;
+    opacity: 0.5;
+    position: absolute;
+}

@@ -1,0 +1,10 @@
+.carouseltudo {
+    display: flex;
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.carouseltudo img {
+    width: 50%;
+}
+
