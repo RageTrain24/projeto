@@ -7,8 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function Header() {
         return (
-                <Navbar bg="light" expand="lg" className='NAV'>
-                        <Container>
+                <Navbar bg="light" expand="lg" className='nave'>
+                        <Container >
                                 <img className="logo" src={logo} alt='logo' />
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
@@ -17,7 +17,7 @@ export default function Header() {
                                                 <Nav.Link href="/quemsomos">Quem somos</Nav.Link>
                                                 <Nav.Link href="/parceiros">Advogados parceiros</Nav.Link>
                                                 <a className='dropdown nav-link dropbtn'>
-                                                        <span>Area do cliente</span>
+                                                        <span>Área do cliente</span>
                                                         <div className='dropdown-content'>
                                                                 <Nav.Link href="/login">Login</Nav.Link>
                                                                 <Nav.Link href="/cadastro">Cadastrar</Nav.Link>

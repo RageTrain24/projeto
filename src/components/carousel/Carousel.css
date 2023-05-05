@@ -1,10 +1,9 @@
 .carouseltudo {
     display: flex;
     text-align: center;
-    margin: 50px 50px;
+    margin: 3.12rem 3.12rem;
 }
 
 .carouseltudo img {
     width: 50%;
 }
-

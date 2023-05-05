@@ -14,8 +14,13 @@
     color: #DEB887;
 }
 
-NAV a {
-    margin-top: 0, 62rem;
+
+.nave a {
+    margin-top: 0.62rem;
+    /* border: solid blue 2px; */
+    margin-left: 6.43rem;
+
+
 }
 
 /* Dropdown Button */
@@ -38,8 +43,6 @@ NAV a {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 10rem;
-
-
     z-index: 1;
     border-radius: 0.5rem;
 }
