@@ -1,19 +1,26 @@
 .barrapes {
-    width: 40%;
+    width: 33rem;
+    margin-left: 6rem;
 }
 
 .botPesq {
-    width: 110px;
+    width: 6.8rem;
     color: #888683;
-    background: #f1f1f11d;
+    background: #f1f1f110;
     border: none;
-    font-weight: 500;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.botPesq:hover{
+    color: #DEB887;
+    transition: .2s;
 }
 
 .tamm {
     /* border: solid red 2px; */
-    width: 20px;
-    margin-left: 10px;
+    width: 1.3rem;
+    margin-left: .5rem;
 
 }
 

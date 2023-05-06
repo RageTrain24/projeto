@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Pathway+Extreme:ital@1&display=swap');
+
+p{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.ftic{
+    width: 30%;
+margin-left: 35%;
+}
+
+.assinatura{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    width: 40%;
+    margin-left: 35%;
+    font-weight: 600;
+
+}
+
+
+

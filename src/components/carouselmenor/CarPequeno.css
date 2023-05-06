@@ -1,17 +1,18 @@
 .carouseltudo2 {
     display: flex;
-    right: 0;
-    text-align: flex-start;
-    width: 50%;
-    z-index: 0;
-
+    text-align: center;
+    width: 45rem;
+    margin-top: 2rem;
+    /* border: solid blue 2px; */
+    /* max-width: 80%; */
+   
 }
 
 .carouseltudo2 img {
-    margin-top: 10px;
-    width: 80%;
+    
+    /* border: 2px solid red; */
+        width: 70%;
     border-radius: 10px;
-    height: 340px;
-    box-shadow: 5px 10px 60px black;
-    box-shadow: 15px 30px 20px rgba(90, 67, 42, 0.474);
+        box-shadow: 5px 50px 40px rgba(0, 0, 0, 0.055);
+    box-shadow: 10px 25px 20px rgba(90, 67, 42, 0.474);
 }
