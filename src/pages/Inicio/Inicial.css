@@ -1,3 +1,18 @@
-.procecar {
-    border: 2px solid red;
+.conttitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        /* border: solid blue 2px; */
 }
+
+.conttitulo h2{
+font-size: 3rem;
+margin: 1rem 0 1rem 0;
+}
+
+.dropcar{
+    border: 2px red solid;
+      display: flex;
+
+}
+

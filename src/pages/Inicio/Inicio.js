@@ -1,25 +1,16 @@
 import CarouselPequeno from "../../components/carouselmenor/CarPequeno";
-import DropPesquisa from "../../components/droppesquisa/DropPesquisa";
 import './Inicial.css'
 
 
 export default function Home() {
     return (
         <div>
-            <div>
-                <div>
-                    <div>
-                        <h2>Agende agora sua consulta</h2>
-                        <h5>Conte com nossos mais de 50 mil advogados para te ajudar!</h5>
-                    </div>
-                </div>
+            <div className="conttitulo">
+                <h2>Agende agora sua consulta</h2>
             </div>
-            <div>
+            <h5 className="contitulo">Conte com nossos mais de 50 mil advogados para te ajudar!</h5>
+            <CarouselPequeno />
 
-                <CarouselPequeno />
-                <DropPesquisa />
-
-            </div>
         </div>
     )
 }

@@ -1,12 +1,13 @@
+import Container from 'react-bootstrap/esm/Container';
 import Rotas from './routes'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
-    <div className='container-fluid'>
+    <Container fluid>
       <Rotas />
-    </div>
+    </Container>
   );
 }
 

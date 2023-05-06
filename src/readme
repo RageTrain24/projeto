@@ -1,3 +1,5 @@
+/* COD
+
 import React from 'react'
 import Select from 'react-select'
 import './DropPesquisa.css'
@@ -15,13 +17,44 @@ export default function DropPesquisa() {
     return (
         <div className='pesqGeral'>
             <Pesquisa />
-            <button className="botPesq">Pesquisar
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="tamm">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                </svg>
 
-            </button>
         </div>
     )
 
 }
+
+
+CSS
+.barrapes {
+    width: 33rem;
+    margin-left: 6rem;
+}
+
+.botPesq {
+    width: 6.8rem;
+    color: #888683;
+    background: #f1f1f110;
+    border: none;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.botPesq:hover{
+    color: #DEB887;
+    transition: .2s;
+}
+
+.tamm {
+    /* border: solid red 2px; */
+    width: 1.3rem;
+    margin-left: .5rem;
+
+}
+
+.pesqGeral {
+    /* border: green solid 3px; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    gap: 36px;
+} */
