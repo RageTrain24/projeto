@@ -2,8 +2,21 @@
     display: flex;
     text-align: center;
     margin: 3.12rem 3.12rem;
+    
 }
 
 .carouseltudo img {
     width: 50%;
+    border-radius: 10px;
+}
+
+.carouseltudo h3{
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
 }

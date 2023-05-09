@@ -1,0 +1,31 @@
+.cadgeral{
+    display: block;    
+}
+.cadastro{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+.cadastro input{
+    width: 25rem;
+}
+.btncad{
+    display: flex;
+    justify-content: center;
+}
+
+.btncad button{
+    width: 30%;
+}
+.cadastro .formm{
+    margin-left: 23px;
+}
+.cad{
+    border: 1px solid black;
+    padding: 3rem;
+    -webkit-box-shadow: 2px 3px 13px 0px rgba(255, 244, 209, 1);
+
+    -moz-box-shadow: 2px 3px 13px 0px rgba(255, 244, 209, 1);
+
+    box-shadow: 2px 3px 13px 0px rgba(255, 244, 209, 1);
+}

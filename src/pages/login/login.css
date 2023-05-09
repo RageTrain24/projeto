@@ -1,0 +1,55 @@
+.logingeral {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login {
+    border: 1px solid black;
+    padding: 3rem;
+    -webkit-box-shadow: 2px 3px 13px 0px rgba(255, 244, 209, 1);
+
+    -moz-box-shadow: 2px 3px 13px 0px rgba(255, 244, 209, 1);
+
+    box-shadow: 2px 3px 13px 0px rgba(255, 244, 209, 1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn button {
+    width: 60%;
+}
+
+
+label {
+    margin-right: 10px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+.esqueci {
+    /* border: rebeccapurple solid 2px;  */
+    display: flex;
+    justify-content: center;
+
+}
+
+.esqueci a {
+    text-decoration: none;
+    color: rgb(51, 46, 46);
+}
+
+.esqueci:hover {
+    font-weight: bold;
+}

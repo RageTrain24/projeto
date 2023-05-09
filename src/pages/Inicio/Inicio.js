@@ -8,7 +8,7 @@ export default function Home() {
             <div className="conttitulo">
                 <h2>Agende agora sua consulta</h2>
             </div>
-            <h5 className="contitulo">Conte com nossos mais de 50 mil advogados para te ajudar!</h5>
+            <h5 className="contitulo">Conte com nossos mais de 300 mil advogados para te ajudar!</h5>
             <CarouselPequeno />
 
         </div>

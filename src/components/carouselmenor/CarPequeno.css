@@ -1,3 +1,4 @@
+
 .carouseltudo2 {
     display: flex;
     text-align: center;
@@ -5,33 +6,37 @@
     width: 100%;
     margin: 1rem 0 2rem 0;
     z-index: 0;
-    
+    position: relative;
+    padding-bottom: 100px;
+
     /* border: solid blue 2px; */
     /* max-width: 80%; */
-   
+
 }
 
 .carouseltudo2 img {
-    
+
     /* border: 2px solid red; */
-        width: 40%;
+    width: 40%;
     border-radius: 10px;
-        box-shadow: 5px 50px 40px rgba(0, 0, 0, 0.055);
-    box-shadow: 10px 25px 20px rgba(90, 67, 42, 0.474);
-   
 }
 
 
-.barrapesgeral{
+.barrapesgeral {
     /* border: solid red 2px; */
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     z-index: 1;
-   
+
 }
 
-.botpesq{
+.botpesq {
     width: 40rem;
+    position: fixed;
+    z-index: 1;
 }
+
+   
+
