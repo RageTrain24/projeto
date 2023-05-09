@@ -4,7 +4,9 @@
     justify-content: center;
     width: 100%;
     margin: 1rem 0 2rem 0;
-    border: solid blue 2px;
+    z-index: 0;
+    
+    /* border: solid blue 2px; */
     /* max-width: 80%; */
    
 }
@@ -12,17 +14,24 @@
 .carouseltudo2 img {
     
     /* border: 2px solid red; */
-        width: 40rem;
+        width: 40%;
     border-radius: 10px;
         box-shadow: 5px 50px 40px rgba(0, 0, 0, 0.055);
     box-shadow: 10px 25px 20px rgba(90, 67, 42, 0.474);
+   
 }
 
 
 .barrapesgeral{
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
+    z-index: 1;
+   
+}
+
+.botpesq{
+    width: 40rem;
 }

@@ -19,13 +19,14 @@ export default function CarouselPequeno() {
     ]
 
     const Pesquisa = () => (
-        <Select options={options} className='barrapesgeral' placeholder='Especialidade, Nome' />
+        <div className='barrapesgeral'>
+            <Select options={options} className='botpesq' placeholder='Especialidade, Nome' />
+        </div>
     )
     // FIM BARRA PESQUISA
     return (
         <div>
-
-            <div className='barrapes'>
+            <div>
                 <Pesquisa />
             </div>
             <div className="carouseltudo2">
